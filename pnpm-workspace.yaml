@@ -2,3 +2,6 @@ packages:
   - 'packages/*'
 allowBuilds:
   esbuild: false
+  fsevents: false
+overrides:
+  sitemap: '7.1.1'
